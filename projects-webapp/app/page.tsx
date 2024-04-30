@@ -3,6 +3,7 @@ import gitHub from '../public/gitHub.png'
 import email from '../public/email.png'
 import ProfileBox from './components/ProfileBox'
 import Timeline from './components/Timeline'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -66,13 +67,13 @@ export default function Home() {
         <aside className='grid-flow-col items-center'>
           <nav className='flex flex-row gap-4'>
             <div className='flex flex-col items-center gap-2 md:flex-row'>
-              <img src={email.src} width='38' height='38' />
+              <Image src={email.src} alt='' width='38' height='38' />
               <p>zackanderson14@gmail.com</p>
             </div>
 
             <div className='flex flex-col items-center gap-2 md:flex-row '>
               <a className='link' href='https://github.com/Zeanderson'>
-                <img src={gitHub.src} width='38' height='38' />
+                <Image alt='' src={gitHub.src} width='38' height='38' />
               </a>
               <p>Zeanders</p>
             </div>
@@ -82,7 +83,7 @@ export default function Home() {
                 className='link'
                 href='https://linkedin.com/in/zachary-anderson-729293250'
               >
-                <img src={linkedIn.src} width='38' height='38' />
+                <Image alt='' src={linkedIn.src} width='38' height='38' />
               </a>
               <p>Zachary Anderson</p>
             </div>

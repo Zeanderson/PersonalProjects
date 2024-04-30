@@ -1,6 +1,7 @@
 import profilePic from '../../public/profilePic.jpg'
 import linkedIn from '../../public/linkedIn.png'
 import gitHub from '../../public/gitHub.png'
+import Image from 'next/image'
 
 function ProfileBox() {
   return (
@@ -15,13 +16,13 @@ function ProfileBox() {
       <p className='text-xl'>Software Engineer I</p>
       <div className='flex flex-row gap-1'>
         <a className='link' href='https://github.com/Zeanderson'>
-          <img src={gitHub.src} width='48' height='48' />
+          <Image alt='' src={gitHub.src} width='48' height='48' />
         </a>
         <a
           className='link'
           href='https://linkedin.com/in/zachary-anderson-729293250'
         >
-          <img src={linkedIn.src} width='48' height='48' />
+          <Image alt='' src={linkedIn.src} width='48' height='48' />
         </a>
       </div>
     </div>
