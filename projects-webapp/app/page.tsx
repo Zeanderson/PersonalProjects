@@ -36,47 +36,58 @@ export default function Home() {
       </header>
 
       <main>
-        <div className='flex flex-row items-center justify-between gap-2'>
-          <ProfileBox />
-          <div className='flex max-w-lg flex-col items-center gap-2'>
-            <div className='pl-4 text-4xl font-bold'>About Me</div>
-            <p>
-              My name is Zachary (Zack) Anderson and I am a recent grad from the
-              University of Arkansas with a bachelors of science in Computer
-              Engineering.{' '}
-            </p>
+        <div className='flex flex-col items-center gap-10 pb-14 pt-10 md:pb-10'>
+          <div className='flex flex-col items-center gap-10 md:flex-row'>
+            <ProfileBox />
+            <div className='flex max-w-3xl flex-col items-center gap-2'>
+              <p className='text-xl'>
+                I'm Zack Anderson, a recent graduate from the University of
+                Arkansas with a Bachelor's of Science in Computer Engineering.
+                I'm thrilled to announce that I've accepted a software
+                engineering position at J.B. Hunt Transport Services, where I'll
+                be joining one of their dynamic Infrastructure & Operations
+                teams, specifically focusing on Networking.
+              </p>
+              <p className='text-xl'>
+                With a deep-seated passion for software development, I am eager
+                to immerse myself in new challenges and opportunities for growth
+                within the tech industry. I believe in continuous learning and
+                innovation, and I'm excited to contribute my skills and
+                enthusiasm to the innovative projects at J.B. Hunt Transport
+                Services.
+              </p>
+            </div>
           </div>
           <Timeline />
         </div>
       </main>
-      <footer className='footer items-center bg-neutral p-4 text-neutral-content'>
+
+      <footer className='footer items-center bg-neutral pl-4 text-neutral-content'>
         <aside className='grid-flow-col items-center'>
-          {/* This is the right side footer :0  */}
-          {/* <p>Copyright ©Anderson LLC 2024 - All right reserved</p> */}
+          <nav className='flex flex-row gap-4'>
+            <div className='flex flex-col items-center gap-2 md:flex-row'>
+              <img src={email.src} width='38' height='38' />
+              <p>zackanderson14@gmail.com</p>
+            </div>
+
+            <div className='flex flex-col items-center gap-2 md:flex-row '>
+              <a className='link' href='https://github.com/Zeanderson'>
+                <img src={gitHub.src} width='38' height='38' />
+              </a>
+              <p>Zeanders</p>
+            </div>
+
+            <div className='flex flex-col items-center gap-2 md:flex-row'>
+              <a
+                className='link'
+                href='https://linkedin.com/in/zachary-anderson-729293250'
+              >
+                <img src={linkedIn.src} width='38' height='38' />
+              </a>
+              <p>Zachary Anderson</p>
+            </div>
+          </nav>
         </aside>
-        <nav className='grid-flow-col gap-4 md:place-self-center md:justify-self-end'>
-          <div className='flex flex-row items-center gap-2'>
-            <img src={email.src} width='38' height='38' />
-            <p>zackanderson14@gmail.com</p>
-          </div>
-
-          <div className='flex flex-row items-center gap-2 '>
-            <a className='link' href='https://github.com/Zeanderson'>
-              <img src={gitHub.src} width='38' height='38' />
-            </a>
-            <p>Zeanders</p>
-          </div>
-
-          <div className='flex flex-row items-center gap-2'>
-            <a
-              className='link'
-              href='https://linkedin.com/in/zachary-anderson-729293250'
-            >
-              <img src={linkedIn.src} width='38' height='38' />
-            </a>
-            <p>Zachary Anderson</p>
-          </div>
-        </nav>
       </footer>
     </div>
   )

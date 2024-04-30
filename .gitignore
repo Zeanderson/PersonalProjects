@@ -13,7 +13,7 @@ random.txt
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-# Runtime data
+# Runtime datahttps://www.notion.so/Resume-Site-4769d618cd9846b29b389973c03619b9
 pids
 *.pid
 *.seed
