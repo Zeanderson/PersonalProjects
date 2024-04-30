@@ -24,16 +24,16 @@ function Timeline() {
             <div className='collapse-title text-xl font-medium'>
               <div className='pb-2'>
                 <div className='text-lg font-black'>
-                  Infrastructure & Operations Summer Internship
+                  Infrastructure &amp; Operations Summer Internship
                 </div>
               </div>
               <label>J.B. Hunt Transport Services</label>
             </div>
             <div className='collapse-content'>
               <p className='text-sm'>
-                During the summer as a Infrastructure & Operations intern for
-                the Networking team, my primary responsibility was to assist in
-                web development for applications in our operations. This
+                During the summer as a Infrastructure &amp; Operations intern
+                for the Networking team, my primary responsibility was to assist
+                in web development for applications in our operations. This
                 internship provided a comprehensive full-stack experience,
                 requiring me to delve into backend, frontend, and the intricate
                 connections between them. I tackled a diverse array of tasks,
@@ -76,7 +76,7 @@ function Timeline() {
             <div className='collapse-title text-xl font-medium'>
               <div className='pb-2'>
                 <div className='text-lg font-black'>
-                  Infrastructure & Operations Annual Internship
+                  Infrastructure &amp; Operations Annual Internship
                 </div>
               </div>
               <label>J.B. Hunt Transport Services</label>
