@@ -42,18 +42,18 @@ export default function Home() {
             <ProfileBox />
             <div className='flex max-w-3xl flex-col items-center gap-2'>
               <p className='text-xl'>
-                I'm Zack Anderson, a recent graduate from the University of
-                Arkansas with a Bachelor's of Science in Computer Engineering.
-                I'm thrilled to announce that I've accepted a software
-                engineering position at J.B. Hunt Transport Services, where I'll
-                be joining one of their dynamic Infrastructure & Operations
-                teams, specifically focusing on Networking.
+                Im Zack Anderson, a recent graduate from the University of
+                Arkansas with a Bachelors of Science in Computer Engineering. Im
+                thrilled to announce that Ive accepted a software engineering
+                position at J.B. Hunt Transport Services, where Ill be joining
+                one of their dynamic Infrastructure & Operations teams,
+                specifically focusing on Networking.
               </p>
               <p className='text-xl'>
                 With a deep-seated passion for software development, I am eager
                 to immerse myself in new challenges and opportunities for growth
                 within the tech industry. I believe in continuous learning and
-                innovation, and I'm excited to contribute my skills and
+                innovation, and Im excited to contribute my skills and
                 enthusiasm to the innovative projects at J.B. Hunt Transport
                 Services.
               </p>

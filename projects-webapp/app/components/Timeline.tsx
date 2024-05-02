@@ -99,7 +99,7 @@ function Timeline() {
                 of responsibility and initiative crucial for success in the
                 software industry. It was like a stepping stone into the real
                 world of software development, giving me the hands-on skills and
-                confidence I need for what's next in my career.
+                confidence I need for whats next in my career.
               </p>
             </div>
           </div>
