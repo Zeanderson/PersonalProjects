@@ -20,16 +20,16 @@ export default function Home() {
                   <summary>Projects</summary>
                   <ul className='rounded-t-none bg-base-100 p-2'>
                     <li>
-                      <a>Gatmate</a>
+                      <a href='/projects/gatemate'>Gatmate</a>
                     </li>
                     <li>
-                      <a>Razorfit</a>
+                      <a href='/projects/razorfit'>Razorfit</a>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <a>Resume</a>
+                <a href='/24-Resume.pdf'>Resume</a>
               </li>
             </ul>
           </div>
