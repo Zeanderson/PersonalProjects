@@ -1,4 +1,4 @@
-import profilePic from '../../public/profilePic.jpg'
+import OldMainProfilePic from '../../public/profilePicOldMain.jpg'
 import linkedIn from '../../public/linkedIn.png'
 import gitHub from '../../public/gitHub.png'
 import Image from 'next/image'
@@ -8,8 +8,8 @@ function ProfileBox() {
     <div className='flex flex-col items-center gap-2'>
       <div className='pl-4 text-4xl font-bold'>Zachary Anderson</div>
       <div className='avatar'>
-        <div className='w-78 mask mask-squircle'>
-          <img src={profilePic.src} />
+        <div className='mask mask-squircle'>
+          <Image alt='' src={OldMainProfilePic.src} width='400' height='400' />
         </div>
       </div>
       <p className='text-xl'>B.S. Computer Engineering</p>
